@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - FlexiPay</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>FlexiPay Dashboard</h1>
+    <nav>
+      <a href="transactions.html">Transactions</a> |
+      <a href="#" onclick="logout()">Logout</a>
+    </nav>
+  </header>
+
+  <main class="center">
+    <h2>Hello, <span id="user-name"></span></h2>
+    <p>Your balance: ₹10,000</p>
+    <p>Instant Credit Limit: ₹15,000</p>
+    <a class="btn" href="transactions.html">View History</a>
+  </main>
+</body>
+</html>
